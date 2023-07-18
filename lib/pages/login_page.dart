@@ -62,8 +62,8 @@ class LoginPage extends StatelessWidget {
               //for navigation
                   Navigator.pushNamed(context, MyRoutes.homeRoute);
             },)
-          
 
+            
             ],
            ),
             )
