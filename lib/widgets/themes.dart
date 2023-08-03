@@ -6,7 +6,7 @@ class MyTheme{
         primarySwatch: Colors.deepPurple,
         brightness: Brightness.light,
        fontFamily: GoogleFonts.lato().fontFamily,
-       appBarTheme: AppBarTheme(
+       appBarTheme: const AppBarTheme(
         color: Colors.white,
         //for removing the shadow
         elevation: 0.0,
@@ -24,4 +24,6 @@ class MyTheme{
         brightness: Brightness.dark,
        
         );
+        static Color creamColor = Color(0xfff5f5f5);
+        static Color darkBluishColor = Color(0xff403b58);
 }
