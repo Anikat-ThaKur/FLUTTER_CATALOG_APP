@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:velocity_x/velocity_x.dart';
-import '../../widgets/themes.dart';
+
 
 class CatalogImage extends StatelessWidget {
   final String image;
@@ -12,7 +12,7 @@ class CatalogImage extends StatelessWidget {
     return  Image.network(
             image,
             //p8 is padding of image to the creambackground in which its inside
-          ).box.rounded.p8.color(MyTheme.creamColor).make().p16().w40(context);
+          ).box.rounded.p8.color(context.canvasColor).make().p16().w40(context);
            //p16 is padding of the creamcolour in the row
   }
 }
