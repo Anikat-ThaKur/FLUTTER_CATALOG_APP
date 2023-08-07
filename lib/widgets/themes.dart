@@ -43,9 +43,8 @@ class MyTheme{
         //for removing the shadow
         elevation: 0.0,
         iconTheme: IconThemeData(color: Colors.white),
-        titleTextStyle: TextStyle(
-          color: Colors.black,
-        )
+        titleTextStyle: TextStyle(color: Colors.white),
+       
        
          ));
         static Color creamColor = const Color(0xfff5f5f5);
