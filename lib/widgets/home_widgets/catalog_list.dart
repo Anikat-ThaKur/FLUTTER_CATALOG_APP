@@ -5,10 +5,8 @@ import 'package:velocity_x/velocity_x.dart';
 
 import 'package:flutter_projects/pages/home_detail_page.dart';
 import 'package:flutter_projects/widgets/home_widgets/catalog_image.dart';
-
-import '../../models/cart.dart';
 import '../../models/catalog.dart';
-import '../../widgets/themes.dart';
+
 
 class CatalogList extends StatelessWidget {
   @override
